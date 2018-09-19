@@ -173,7 +173,7 @@ bar {
 new_window 1pixel
 focus_follows_mouse no
 exec --no-startup-id compton -b
-exec --no-startup-id sh ~/Pictures/wallpapers.sh 30
+exec --no-startup-id sh ~/Pictures/wallpapers.sh 20
 
 bindsym $mod+q exec --no-startup-id sh ~/Pictures/lockimage.sh 
 

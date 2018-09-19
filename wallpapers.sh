@@ -12,6 +12,6 @@ do
 RANGE=${#images[@]}
 number=$RANDOM
 let "number %= $RANGE"
-eh --bg-scale ${images[$number]}
+feh --bg-scale ${images[$number]}
 sleep $t
 done
