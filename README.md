@@ -17,3 +17,14 @@ ln wallpapers.sh ~/Pictures/wallpapers.sh <br />
 #wallpapers.sh usage 
 <br />
 sh wallpapers.sh (minutes) <br />
+<br />
+#11-20 workspaces <br />
+Mod+Ctrl+[0-9]<br /><br />
+#move to 11-20 workspaces <br />
+Mod+Shift+Ctrl+[0-9]<br />
+<br />
+#open netbeans with dk8<br />
+$mod+n<br />
+
+#lockscreen<br />
+$mod+q<br />
