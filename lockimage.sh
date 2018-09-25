@@ -1,7 +1,7 @@
 images=();
 #var=$(command)
 dim=$(xrandr |grep \* |awk '{print $1}')
-echo "${dim}"
+#echo "${dim}"
 for entry in ~/Pictures/lockscreen/${dim}/*.png;
 do
   images=( "${images[@]}" "$entry" );
