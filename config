@@ -242,6 +242,9 @@ bindsym $mod+Shift+Ctrl+0 move container to workspace $ws20
 # open netbeans with jdk
 bindsym $mod+n exec netbeans --jdkhome "/usr/lib/jvm/java-8-openjdk/"
 
+# open netbeans with jdk
+bindsym $mod+g exec google-chrome-stable 
+
 #monitors
 exec --no-startup-id sh ~/monitor_init.sh 1
 bindsym $mod+m exec --no-startup-id sh ~/bash_files/monitor_init.sh 0
